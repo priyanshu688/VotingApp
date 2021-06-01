@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/participant_navigation"
+    app:startDestination="@+id/navigation_penroll">
+
+    <fragment
+        android:id="@+id/navigation_penroll"
+        android:name="com.example.votingapp.participant.enroll.EnrollFragment"
+        android:label="@string/title_penroll"
+        tools:layout="@layout/participant_fragment_update" />
+
+    <fragment
+        android:id="@+id/navigation_pupdate"
+        android:name="com.example.votingapp.participant.update.UpdateFragment"
+        android:label="@string/title_pupdate"
+        tools:layout="@layout/fragment_pupdate" />
+
+    <fragment
+        android:id="@+id/navigation_pnorms"
+        android:name="com.example.votingapp.participant.norms.NormsFragment"
+        android:label="@string/title_pnorms"
+        tools:layout="@layout/fragment_norms" />
+</navigation>

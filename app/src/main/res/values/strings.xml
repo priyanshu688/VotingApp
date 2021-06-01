@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">VotingApp</string>
+    <string name="title_vote">Vote</string>
+    <string name="title_update">Update</string>
+    <string name="title_candidate">Candidate</string>
+
+    <string name="title_penroll">Enroll</string>
+    <string name="title_pupdate">Update</string>
+    <string name="title_pnorms">Norms</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
